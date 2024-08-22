@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&family=Poiret+One&display=swap');
+
+:root{
+    --cor--primaria: #8ac5ab;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor--primaria);
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    width: 100%;
+    }
+
+.cabecalho__paginainicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1.87rem;
+}
+
+.cabecalho__menu__links{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__menu__links__link{
+    text-decoration: none;
+}
+.apresentacao__weslleybraz__titulo{
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.apresentacao__weslleybraz__titulo__psi {
+    color: #174119;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.apresentacao__weslleybraz__subtitulo{
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.25rem;
+    color:black;
+    text-align: center;
+    border-radius: 25px;     
+}
+
+.apresentacao__weslleybraz__subtitulo__3{
+    padding: 0%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.pagina__principal__weslleybraz{
+    
+}
+
+.pagina__principal__weslleybraz__conteudo{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.pagina__principal__weslleybraz__conteudo__texto{
+    color: #000000;
+    font-size: 1.57rem;
+    text-align: justify;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    line-height: 35px;
+    padding: 1%;
+
+}
+
+.paragrafo__pagina__assinatura{
+    color: #174119;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-size: 1.25rem;
+    font-style: normal;
+}
+
+.redes__sociais__links{
+    padding-left: 30%;
+    padding-right: 30%;
+    gap: 32px;
+    }
+
+.redes__sociais_link__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid #174119;
+    width: 50px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #174119;
+    background: #90c4b8;
+    font-family: "Krona One", sans-serif;
+    font-weight: 150;
+   
+}
+
+
+.redes__sociais_link__links:hover{
+    background-color: #d2eee6;
+    }
+
+ .rodape { 
+    color: #000000;
+    background-color: #174119;
+    padding: 20px;
+    text-align: center;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    }
+
+
+
+
+
